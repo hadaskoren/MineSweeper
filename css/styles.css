@@ -1,0 +1,87 @@
+body { 
+    background-image: url(../img/grass.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.boardContainer td {
+    width: 50px;
+    height:50px;
+    text-align: center;
+    border: 10px outset lightgrey;
+    background-color:silver;
+    color: #154360; 
+    font-family: Arial;
+}
+table {
+    position: relative;
+    margin: auto;
+}
+
+.boardContainer {
+    font-size:1.4em;
+    width: auto;
+    height:auto;
+    background-color: lightgrey;
+}
+
+.flag {
+    position: relative;
+    width:40px;
+    height:40px;
+}
+
+h1 { 
+    color:#154360; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 50px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center; 
+}
+
+.btnToggleGame {
+    display:table;
+    margin: 20px auto;
+    font-size:1em;
+    background: #154360; 
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.timeAndFlag {
+    font-family: Arial;
+    font-size:1em;
+    color: #154360; 
+    display:table;
+    margin: 20px auto;
+}
+
+.gameOver {
+    font-family: Arial;
+    font-size:1em;
+    font-weight: bold;
+    color: red;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 
+    0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 
+    0 0 100px #ff00de, 0 0 150px #ff00de;
+    margin: 20px auto;
+}
+
+.wonGame {
+    font-family: Arial;
+    font-size:1em;
+    font-weight: bold;
+    color: seagreen;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 
+    0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 
+    0 0 100px #ff00de, 0 0 150px #ff00de;
+    margin: 20px auto;
+}

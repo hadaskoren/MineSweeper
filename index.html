@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hadas's Mine Sweeper</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body onload="initGame()">
+    <div class="bg"></div>
+    <div>
+        <h1>Mine Sweeper</h1>
+        
+        <h4 class="timeAndFlag">Time: <span id="spanTimer"></span></h4>
+        <h4 class="timeAndFlag">Mines left: <span id ="flagID"></span></h4>
+        <table oncontextmenu="return false">
+            <tbody class="boardContainer">
+            </tbody>
+        </table>
+        <button class="btnToggleGame" onClick ="initGame()">Start Game</button>
+        <h4 class="gameOver"></h4>
+        <h4 class="wonGame"></h4>
+    </div>
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
